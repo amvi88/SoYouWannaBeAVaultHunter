@@ -44,7 +44,7 @@
     "FrontBody": "<p>Agility on the battlefield is crucial in combat. You will always get the chance to move during your turn.</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
-    "BackTitle": "MOVEMENT (In Depth)",
+    "BackTitle": "Movement (In Depth)",
     "BackBody": "<p>Movement is equal to 3 squares + SPD bonus. Moves may be split up with other Actions (ex. a player can move 1 square, Attack an Enemy, and then move additional squares). You can't move through enemy spaces, but if you ask nicely your frinds might just let you.<br>When performing Actions like climb, slide, or jump, that may be extraordinary. a Traverse Check may be necessary to proceed. <br> If you enter a square with Loot Piles, Movement is paused and <span class=\"tina-text\">sweet, sweet loot!</span><p>",
     "BackImage": null,
     "BackImageDescription": null
@@ -56,6 +56,46 @@
     "FrontImageDescription": null,
     "BackTitle": "Extra Movement (In Depth)",
     "BackBody": "<p> You can make an additional Movement Action at your normal moving Range. But it is not free, extra movement generate 1 Mayhem Point unless you have a Vault Hunter's Skill or ability that grants you Extra Movement.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (EXTRA ATTACK)",
+    "FrontBody": "<p><span class=\"tina-text\">Gonna go blat-blat-blat on the vine-freaks.<br>Rat-tat-tat till their brain leaks.<br>Chill, girl, just droppin' some bars. Go do the thing.<span></p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Extra Attack (In Depth)",
+    "BackBody": "<p> You can make an additional Attack Action each turn (Ranged or Melee). But it is not free, extra attacks generate 1 Mayhem Point unless you have a Vault Hunter's Skill or ability that grants you Extra Attacks.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (ACTION SKILL)",
+    "FrontBody": "<p>Action Skills are you bread a butter move, your signature combo, a special move unique to your class</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Action Skills (In Depth)",
+    "BackBody": "<p> You can choose to activate their Action Skill instead of Ranged or Melee Attack each turn, you can execute your Action Skill up to your MST modifier per encounter and up to 3 times per day.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (GRENADES)",
+    "FrontBody": "<p>Fire in the hole!</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Grenades (In Depth)",
+    "BackBody": "<p> At any time during your turn, you can launch a grenade.Grenade Damage is determined by the type of grenade mod you have equipped has. At level one you start with one grenade and when runs out of one type of grenade, the next time you get a grenade, you have the option to keep your current mod or replace it by rolling for a new one.<br><br>Your DMG mods tells you how far can a grenade be thrown and your ACC how good you're at hitting people with it. <p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (THROW/HANDS OFF ITEMS)",
+    "FrontBody": "<p>For when you wish to Throw or Hand Off an item, whether that's a gun into another Vault Hunter's waiting hands, or a piece of debris into an orc's not-so-waiting mouth hole</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Throwing or Handing off items (In Depth)",
+    "BackBody": "<p>If the distance of a Throw is within a number of squares equal to or less than your DMG Mod, the Throw always succeeds. For a further Throw, you must pass an Accuracy Roll of 12 or higher by rolling a d20 and adding their ACC Mod or bad things might happen.<br> Handing Off an item is only to an adjacent square.<br>Throws do not generate Mayhem, but Handing Off an item generates 1 Mayhem Point. <p>",
     "BackImage": null,
     "BackImageDescription": null
   }
