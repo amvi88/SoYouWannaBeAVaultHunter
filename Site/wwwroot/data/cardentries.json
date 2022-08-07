@@ -60,6 +60,16 @@
     "BackImageDescription": null
   },
   {
+    "FrontTitle": "Combat Actions (MELEE ATTACK)",
+    "FrontBody": "<p>For when you want to get in reaaaal close</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Extra Attack (In Depth)",
+    "BackBody": "<p><ol><li>Choose a Target: The player chooses a target in an adjacentspan</li><li> Roll: Roll 1d20 to resolve the Accuracy of the Melee Altack<ul><li>1: FAIL | 2-15: Normal Damage | 16-19: +1 Damage Die | 20: Double Damage | Natural 20 add a Crit to the Damage Roll.</li></ul></li><li>Damage: Gather your magic math stones and roll the Damage plus your DMG Mod, and any additional crits. </li></ol><p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
     "FrontTitle": "Combat Actions (EXTRA ATTACK)",
     "FrontBody": "<p><span class=\"tina-text\">Gonna go blat-blat-blat on the vine-freaks.<br>Rat-tat-tat till their brain leaks.<br>Chill, girl, just droppin' some bars. Go do the thing.<span></p>",
     "FrontImage": null,
@@ -126,6 +136,36 @@
     "FrontImageDescription": null,
     "BackTitle": "Throwing or Handing off items (In Depth)",
     "BackBody": "<p>For the most part, you won't need to worry about Reloading. UNLESS you roll a 1 on a Ranged Attack or if you want to spend your Action Reloading to trigger an effect on a Skill or Feat. In either scenario,any Skill or Guild conditions will then go into effect and 1 Mayhem Point is gained. By reloading you forfeit your Attack actions.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Skills (Readying an Action)",
+    "FrontBody": "<p>Your may also Hold Actions instead of taking normal Actions on you turn. When you Hold Actions, you are waiting for something to happen before you Act</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Holding an Action (In Depth)",
+    "BackBody": "<p>If the event you're wating for never occurs, you take yout turn lastafter all Enemies.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "BADASS MOVE",
+    "FrontBody": "<p>Outside the realm of your normal Actions, the Badass Move is for all those do-or-die moments during a fight. When you have a brilliant/stupid/courageous/nonsensical idea and desperately want to put it into an action,you'll be using a Badass Move</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Tell me more",
+    "BackBody": "<p>Begin a Badass Move by describing, in detail, what you want to do on your turn, including all the Actions required to make the Badass Move happen (Movements, Attacks, perform Checks, etc.) Be as descriptive as possible.<br>Feel free to add any catchphrases or one liners. You can either succeed and get Badass Tokens or well ... suffer your failure.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "BADASS TOKEN",
+    "FrontBody": "<p>Badass Tokens can be used in a couple of ways. They can be spent by any player in a party to add +1 to any roll. including non-combat Checks. They can also be spent to do an additional Badass Move in an encounter</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "A badge of you badassity",
+    "BackBody": "<p>You get 1 Badass Move per day, but can spend Tokens to do additional Badass Moves. Each extra Badass Move costs 1 additional Token cumulatively. 1 extra move costs 1 Token, the next costs 2 Tokens, then 3 Tokens, etc.<p>",
     "BackImage": null,
     "BackImageDescription": null
   }
