@@ -1,0 +1,63 @@
+@namespace Site.Pages
+
+<div class="tile is-12">
+    <div class="flip-wrapper column is-full">
+        <input type="checkbox" id="@Id">
+        <label class="flip-tile" for="@Id">
+            <div class="flip-tile-front box">
+                @if(!string.IsNullOrWhiteSpace(FrontImage))
+                {
+                    <div class="flip-tile-image">
+                        <figure class="image is-4by3">
+                            <img src="@FrontImage" alt="@FrontImageDescription">
+                        </figure>
+                    </div>
+                }               
+                <p class="title">@FrontTitle</p>
+                @((MarkupString) FrontBody)
+            </div>
+            <div class="flip-tile-back box">
+                @if(!string.IsNullOrWhiteSpace(BackImage))
+                {
+                    <div class="flip-tile-image">
+                        <figure class="image is-4by3">
+                            <img src="@BackImage" alt="@BackImageDescription">
+                        </figure>
+                    </div>
+                }    
+                <h4 class="title">@BackTitle</h4>
+                @((MarkupString) BackBody)
+            </div>
+        </label>
+    </div>
+</div>
+
+
+@code
+{
+    public string Id = Guid.NewGuid().ToString();
+
+    [Parameter]
+    public string FrontTitle {get; set;}= null;
+
+    [Parameter]
+    public string FrontImage {get; set;}= null;
+
+    [Parameter]
+    public string FrontImageDescription {get; set;}= null;
+
+    [Parameter]
+    public string FrontBody {get; set;}= null;
+
+    [Parameter]
+    public string BackTitle {get; set;}= null;
+
+    [Parameter]
+    public string BackImage {get; set;}= null;
+
+    [Parameter]
+    public string BackImageDescription {get; set;}= null;
+
+    [Parameter]
+    public string BackBody {get; set;} = null;
+}

@@ -1,3 +1,11 @@
-.overlay-white{
+.overlay-white {
         background-color: rgba(255, 255, 255, 0.95);
+}
+
+.has-margin-1em {
+        margin: 1em;
+}
+
+.is-strike-through {
+        text-decoration: line-through;
 }

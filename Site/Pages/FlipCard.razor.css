@@ -1,0 +1,49 @@
+.flip-wrapper {
+    position: relative;
+  }
+  .flip-wrapper.bottom {
+    margin-bottom: -1.4em;
+  }
+  .flip-wrapper input[type=checkbox] {
+    position: absolute;
+    left: -9999em;
+  }
+  
+  .flip-wrapper input[type=checkbox]:checked ~ .flip-tile .flip-tile-back {
+    visibility: visible;
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  .flip-wrapper input[type=checkbox]:checked ~ .flip-tile .flip-tile-front {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-wrapper .flip-tile {
+    cursor: pointer;
+    display: block;
+    perspective: 600px;
+    position: relative;
+    transition: all 0.1s;
+  }
+  .flip-wrapper .flip-tile:hover {
+    transform: scale(1.02, 1.02);
+  }
+  .flip-wrapper .flip-tile .flip-tile-front,
+  .flip-wrapper .flip-tile .flip-tile-back {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.4s ease-in-out;
+    background-repeat: no-repeat;
+    background-position: top 10px right 10px;
+  }
+  .flip-wrapper .flip-tile .flip-tile-front {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  .flip-wrapper .flip-tile .flip-tile-back {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transform: rotateY(-180deg);
+    overflow: hidden;
+  }
