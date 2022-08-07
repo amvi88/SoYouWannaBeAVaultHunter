@@ -15,7 +15,7 @@
                     </div>
                 }               
                 <p class="title">@CardEntry?.FrontTitle</p>
-                @CardEntry?.FrontBody)
+                @((MarkupString)CardEntry?.FrontBody)
             </div>
             <div class="flip-tile-back box">
                 @if(!string.IsNullOrWhiteSpace(CardEntry?.BackImage))
@@ -27,7 +27,7 @@
                     </div>
                 }    
                 <h4 class="title">@CardEntry?.BackTitle</h4>
-                @CardEntry?.BackBody
+                @((MarkupString)@CardEntry?.BackBody)
             </div>
         </label>
     </div>

@@ -13,6 +13,12 @@ namespace Site.Services
     public class CardEntriesService : ICardEntriesService
     {
         private readonly HttpClient HttpClient;
+
+        public CardEntriesService(HttpClient httpClient)
+        {
+            HttpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+        }
+
         public async Task<CardEntry[]> GetCardEntries()
         {
             return await HttpClient.GetFromJsonAsync<CardEntry[]>("data/cardentries.json") ?? new CardEntry[0];

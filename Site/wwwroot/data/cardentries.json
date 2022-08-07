@@ -1,2 +1,42 @@
 ﻿[
+  {
+    "FrontTitle": "Stats (Accuracy)",
+    "FrontBody": "<p>Accuracy Refers to your Ability to hit an specific target. More Accuracy more Hits, that includes anything you might throw</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Related Checks",
+    "BackBody": "<ul><li>Insight</li><li>Interact</li></ul>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Stats (Damage)",
+    "FrontBody": "<p>Damage Refers to how much hurt you can rain on your enemies, and how far you can hurl that hurt (tossing a grenade).</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Related Checks",
+    "BackBody": "<p><span class=\"tina-text\">MAKE IT RAAAAAAAAIN!<span></p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Stats (Speed)",
+    "FrontBody": "<p>Speed represents how far you can move. Important for avoiding hits. By default you can move 3 spaces per turn. Any increase in speed also increase your movements.</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Related Checks",
+    "BackBody": "<ul><li>Traverse</li><li>Talk</li></ul>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Stats (Mastery)",
+    "FrontBody": "<p>Mastery is the focus and proficiency you bring to certain skills.Increasing Mastery allows you to use your Ability Skills multiple times per encounter.</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Related Checks",
+    "BackBody": "<ul><li>Sneak</li><li>Search</li></ul>",
+    "BackImage": null,
+    "BackImageDescription": null
+  }
 ]
