@@ -5,7 +5,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<ul><li>Insight</li><li>Interact</li></ul>",
+    "BackBody": "<ul><li>Insight<ul><li>Want to prove you know stuff about..stuff? That you've been around the block and have the memory to prove it? All the things you know about things are just an Insight Check away.</li></ul></li><br><li>Interact<ul><li>There are levers that need pulling, gates to be opened. And doors kicked in! Interact is all of these and anything else that needs to be handled. Thrown, or flail-ed about.</li></ul></li></ul>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -25,7 +25,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<ul><li>Traverse</li><li>Talk</li></ul>",
+    "BackBody": "<ul><li>Traverse<ul><li>Jump! Climb! Roll! Flip! Traverse Checks!</li></ul></li><br><li>Talk<ul><li>Going in guns blazing isn't always the answer. Sometimes you need to mount a charm offensive. There can be value in talking your way in or out of a situation.</li></ul></li></ul>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -35,7 +35,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<ul><li>Sneak</li><li>Search</li></ul>",
+    "BackBody": "<ul><li>Sneak<ul><li>When you want to do a thing and not get caught, like pet a lock, steal from a sleeping guard, or creep up on an Enemy, Sneak Checks are the way to go.</li></ul></li><br><li>Search<ul><li>Unsure it you're walking into a trap? Suspect there might be some extra Loot hidden in a room? Why not perform, Search Check?</li></ul></li></ul>",
     "BackImage": null,
     "BackImageDescription": null
   }

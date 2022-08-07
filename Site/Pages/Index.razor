@@ -17,7 +17,7 @@
     {
         <div class="container">
             <div class="tile is-ancestor">  
-                @foreach (var batch in cardEntries.Select((x, i) => new { x, i }).GroupBy(p => (p.i / 3)))
+                @foreach (var batch in cardEntries.Select((x, i) => new { x, i }).GroupBy(p => (p.i / 6)))
                 {
                     <div class="tile is-vertical">
                         @foreach (var item in batch)

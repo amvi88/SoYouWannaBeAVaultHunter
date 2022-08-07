@@ -34,6 +34,8 @@
     transition: all 0.4s ease-in-out;
     background-repeat: no-repeat;
     background-position: top 10px right 10px;
+    min-height: 200px;
+
   }
   .flip-wrapper .flip-tile .flip-tile-front {
     transform: rotateX(0deg) rotateY(0deg);
