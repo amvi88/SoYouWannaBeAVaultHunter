@@ -38,5 +38,25 @@
     "BackBody": "<ul><li>Sneak<ul><li>When you want to do a thing and not get caught, like pet a lock, steal from a sleeping guard, or creep up on an Enemy, Sneak Checks are the way to go.</li></ul></li><br><li>Search<ul><li>Unsure it you're walking into a trap? Suspect there might be some extra Loot hidden in a room? Why not perform, Search Check?</li></ul></li></ul>",
     "BackImage": null,
     "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (MOVEMENT)",
+    "FrontBody": "<p>Agility on the battlefield is crucial in combat. You will always get the chance to move during your turn.</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "MOVEMENT (In Depth)",
+    "BackBody": "<p>Movement is equal to 3 squares + SPD bonus. Moves may be split up with other Actions (ex. a player can move 1 square, Attack an Enemy, and then move additional squares). You can't move through enemy spaces, but if you ask nicely your frinds might just let you.<br>When performing Actions like climb, slide, or jump, that may be extraordinary. a Traverse Check may be necessary to proceed. <br> If you enter a square with Loot Piles, Movement is paused and <span class=\"tina-text\">sweet, sweet loot!</span><p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (EXTRA MOVEMENT)",
+    "FrontBody": "<p>Feeling like moving a little extra?</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Extra Movement (In Depth)",
+    "BackBody": "<p> You can make an additional Movement Action at your normal moving Range. But it is not free, extra movement generate 1 Mayhem Point unless you have a Vault Hunter's Skill or ability that grants you Extra Movement.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
   }
 ]
