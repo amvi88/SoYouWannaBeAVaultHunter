@@ -5,7 +5,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<ul><li>Insight<ul><li>Want to prove you know stuff about..stuff? That you've been around the block and have the memory to prove it? All the things you know about things are just an Insight Check away.</li></ul></li><br><li>Interact<ul><li>There are levers that need pulling, gates to be opened. And doors kicked in! Interact is all of these and anything else that needs to be handled. Thrown, or flail-ed about.</li></ul></li></ul>",
+    "BackBody": "<p><ul><li>Insight<ul><li>Want to prove you know stuff about..stuff? That you've been around the block and have the memory to prove it? All the things you know about things are just an Insight Check away.</li></ul></li><br><li>Interact<ul><li>There are levers that need pulling, gates to be opened. And doors kicked in! Interact is all of these and anything else that needs to be handled. Thrown, or flail-ed about.</li></ul></li></ul></p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -25,7 +25,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<ul><li>Traverse<ul><li>Jump! Climb! Roll! Flip! Traverse Checks!</li></ul></li><br><li>Talk<ul><li>Going in guns blazing isn't always the answer. Sometimes you need to mount a charm offensive. There can be value in talking your way in or out of a situation.</li></ul></li></ul>",
+    "BackBody": "<p><ul><li>Traverse<ul><li>Jump! Climb! Roll! Flip! Traverse Checks!</li></ul></li><br><li>Talk<ul><li>Going in guns blazing isn't always the answer. Sometimes you need to mount a charm offensive. There can be value in talking your way in or out of a situation.</li></ul></li></ul></p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -35,7 +35,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<ul><li>Sneak<ul><li>When you want to do a thing and not get caught, like pet a lock, steal from a sleeping guard, or creep up on an Enemy, Sneak Checks are the way to go.</li></ul></li><br><li>Search<ul><li>Unsure it you're walking into a trap? Suspect there might be some extra Loot hidden in a room? Why not perform, Search Check?</li></ul></li></ul>",
+    "BackBody": "<p><ul><li>Sneak<ul><li>When you want to do a thing and not get caught, like pet a lock, steal from a sleeping guard, or creep up on an Enemy, Sneak Checks are the way to go.</li></ul></li><br><li>Search<ul><li>Unsure it you're walking into a trap? Suspect there might be some extra Loot hidden in a room? Why not perform, Search Check?</li></ul></li></ul></p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -60,11 +60,21 @@
     "BackImageDescription": null
   },
   {
+    "FrontTitle": "Combat Actions (RANGED ATTACK)",
+    "FrontBody": "<p>Attacking is how to make things that are alive, less so</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Ranged Attack (In Depth)",
+    "BackBody": "<p><ol><li>Choose a Target: choose a target that is within the Range of your current gun (see the Gun Card).</li><li>Accuracy Roll: Roll 1d20, (add your ACC Mod if it is a Favored Gun type) and any other bonuses. Then Check the Accuracy box on the Gun Card to see how many Hits and Crits you've scored.<ul><li>If you roll a natural 1 your fail the Attack and need to Reload.</li></ul></li><ol><p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
     "FrontTitle": "Combat Actions (MELEE ATTACK)",
     "FrontBody": "<p>For when you want to get in reaaaal close</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
-    "BackTitle": "Extra Attack (In Depth)",
+    "BackTitle": "Melee Attack (In Depth)",
     "BackBody": "<p><ol><li>Choose a Target: The player chooses a target in an adjacentspan</li><li> Roll: Roll 1d20 to resolve the Accuracy of the Melee Altack<ul><li>1: FAIL | 2-15: Normal Damage | 16-19: +1 Damage Die | 20: Double Damage | Natural 20 add a Crit to the Damage Roll.</li></ul></li><li>Damage: Gather your magic math stones and roll the Damage plus your DMG Mod, and any additional crits. </li></ol><p>",
     "BackImage": null,
     "BackImageDescription": null
@@ -145,7 +155,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Holding an Action (In Depth)",
-    "BackBody": "<p>If the event you're wating for never occurs, you take yout turn lastafter all Enemies.<p>",
+    "BackBody": "<p>If the event you're wating for never occurs, you take yout turn last after all Enemies.<p>",
     "BackImage": null,
     "BackImageDescription": null
   },

@@ -50,3 +50,13 @@
     transform: rotateY(-180deg);
     overflow: hidden;
   }
+
+  .flip-tile > p,
+  .flip-tile-back > p {
+    text-align: justify;    
+  }
+
+  .tina-text{
+    font-size: large;
+  }
+
