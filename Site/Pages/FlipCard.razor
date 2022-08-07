@@ -1,32 +1,33 @@
 @namespace Site.Pages
+@using Models
 
 <div class="tile is-12">
     <div class="flip-wrapper column is-full">
         <input type="checkbox" id="@Id">
         <label class="flip-tile" for="@Id">
             <div class="flip-tile-front box">
-                @if(!string.IsNullOrWhiteSpace(FrontImage))
+                @if(!string.IsNullOrWhiteSpace(CardEntry?.FrontImage))
                 {
                     <div class="flip-tile-image">
                         <figure class="image is-4by3">
-                            <img src="@FrontImage" alt="@FrontImageDescription">
+                            <img src="@CardEntry.FrontImage" alt="@CardEntry.FrontImageDescription">
                         </figure>
                     </div>
                 }               
-                <p class="title">@FrontTitle</p>
-                @((MarkupString) FrontBody)
+                <p class="title">@CardEntry?.FrontTitle</p>
+                @CardEntry?.FrontBody)
             </div>
             <div class="flip-tile-back box">
-                @if(!string.IsNullOrWhiteSpace(BackImage))
+                @if(!string.IsNullOrWhiteSpace(CardEntry?.BackImage))
                 {
                     <div class="flip-tile-image">
                         <figure class="image is-4by3">
-                            <img src="@BackImage" alt="@BackImageDescription">
+                            <img src="@CardEntry.BackImage" alt="@CardEntry.BackImageDescription">
                         </figure>
                     </div>
                 }    
-                <h4 class="title">@BackTitle</h4>
-                @((MarkupString) BackBody)
+                <h4 class="title">@CardEntry?.BackTitle</h4>
+                @CardEntry?.BackBody
             </div>
         </label>
     </div>
@@ -38,26 +39,5 @@
     public string Id = Guid.NewGuid().ToString();
 
     [Parameter]
-    public string FrontTitle {get; set;}= null;
-
-    [Parameter]
-    public string FrontImage {get; set;}= null;
-
-    [Parameter]
-    public string FrontImageDescription {get; set;}= null;
-
-    [Parameter]
-    public string FrontBody {get; set;}= null;
-
-    [Parameter]
-    public string BackTitle {get; set;}= null;
-
-    [Parameter]
-    public string BackImage {get; set;}= null;
-
-    [Parameter]
-    public string BackImageDescription {get; set;}= null;
-
-    [Parameter]
-    public string BackBody {get; set;} = null;
+    public CardEntry? CardEntry{get; set;}
 }

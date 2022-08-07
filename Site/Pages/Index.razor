@@ -1,5 +1,7 @@
 @page "/"
-@using Site.Pages;
+@using Models
+@using Services;
+@inject ICardEntriesService service;
 
 <section class="column is-four-fifths  overlay-white">
     <div class="columns features">
@@ -11,25 +13,32 @@
         <br> The six galaxies are full of dangers, and you might encounter a bunch of unfriendly faces, so here's a small guide that may help you survive if only just a bit longer
         </p> 
     </div>
-    <div class="container">
-        <div class="tile is-ancestor">  
-            <div class="tile is-vertical">         
-                    <FlipCard FrontTitle="Some Title" FrontBody="Bacon Ipsum"></FlipCard>
-                    <FlipCard></FlipCard>
-                    <FlipCard></FlipCard>
-            </div> 
-            <div class="tile is-vertical">         
-                    <FlipCard></FlipCard>
-                    <FlipCard></FlipCard>
-                    <FlipCard></FlipCard></div>
-                    <div class="tile is-vertical">         
-                    <FlipCard></FlipCard>
-                    <FlipCard></FlipCard>        
+    @if(cardEntries != null && cardEntries.Any())
+    {
+        <div class="container">
+            <div class="tile is-ancestor">  
+                @foreach (var batch in cardEntries.Select((x, i) => new { x, i }).GroupBy(p => (p.i / 3)))
+                {
+                    <div class="tile is-vertical">
+                        @foreach (var item in batch)
+                        {
+                            <FlipCard CardEntry="@item.x"/>
+                        }
                     </div>
+                }
+            </div>
         </div>
-    </div>
-
-    <div class="columns">
-            
-    </div>
+    }
 </section>
+
+
+@code
+{
+    CardEntry[] cardEntries = new CardEntry[0]; 
+
+    protected override async Task OnInitializedAsync()
+    {
+        cardEntries = await service.GetCardEntries();
+    }
+
+}
