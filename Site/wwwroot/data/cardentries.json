@@ -98,5 +98,35 @@
     "BackBody": "<p>If the distance of a Throw is within a number of squares equal to or less than your DMG Mod, the Throw always succeeds. For a further Throw, you must pass an Accuracy Roll of 12 or higher by rolling a d20 and adding their ACC Mod or bad things might happen.<br> Handing Off an item is only to an adjacent square.<br>Throws do not generate Mayhem, but Handing Off an item generates 1 Mayhem Point. <p>",
     "BackImage": null,
     "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (SWAP GUNS)",
+    "FrontBody": "<p> You'll always needs the right tool for the job. Most of the time that tool is a better gun</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Swapping Guns (In Depth)",
+    "BackBody": "<p>You can have a total of 3 active guns and unlimited inactive guns. Inactive guns can't be accessed during combat. You can, however, switch between their active guns in battle at a cost of 1 Mayhem Point. <p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (PERFORM A CHECK)",
+    "FrontBody": "<p>Any check could potentially come up in combat</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Combat Checks (In Depth)",
+    "BackBody": "<p>You may need to Traverse over obstacles or get Insight into the motivations of an Enemy. Maybe Interact with a Corrosive Barrel or Search for a more creative weapon. You could attempt to Sneak up on a target or Talk a Boss out of killing you.<br><br> 1 Mayhem Point is generated for attempting the Check, and an additional 1 Point is gained if the you fail the Check.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "FrontTitle": "Combat Actions (RELOAD)",
+    "FrontBody": "<p><span class=\"tina-text\">It got jam, what<span></p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Throwing or Handing off items (In Depth)",
+    "BackBody": "<p>For the most part, you won't need to worry about Reloading. UNLESS you roll a 1 on a Ranged Attack or if you want to spend your Action Reloading to trigger an effect on a Skill or Feat. In either scenario,any Skill or Guild conditions will then go into effect and 1 Mayhem Point is gained. By reloading you forfeit your Attack actions.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
   }
 ]
