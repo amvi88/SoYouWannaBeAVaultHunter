@@ -108,3 +108,7 @@
     background-color: #fafafa;
     text-transform: uppercase;
 }
+
+.is-strike-through{
+text-decoration: line-through;
+}
