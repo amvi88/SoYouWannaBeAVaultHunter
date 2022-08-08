@@ -37,6 +37,13 @@
     min-height: 350px;
   }
 
+  @media (max-width: 600px) {
+    flip-wrapper .flip-tile .flip-tile-front,
+    .flip-wrapper .flip-tile .flip-tile-back {
+      min-height: 400px;
+    }
+  }
+
   .flip-wrapper .flip-tile .flip-tile-front {
     transform: rotateX(0deg) rotateY(0deg);
   }
@@ -58,5 +65,10 @@
 
   .tina-text{
     font-size: large;
+  }
+
+  .element-small{
+    max-width: 32px;
+    max-height: 32px;
   }
 

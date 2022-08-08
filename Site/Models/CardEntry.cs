@@ -13,6 +13,7 @@ namespace Site.Models
         public string? BackBody {get; set;} = null;
         public string? BackImage {get; set;} = null;
         public string? BackImageDescription {get; set;} = null;
+        public string? Category {get; set;} = null;
     }
 
 }

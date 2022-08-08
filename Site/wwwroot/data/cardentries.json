@@ -1,6 +1,7 @@
 ﻿[
   {
-    "FrontTitle": "Stats (Accuracy)",
+    "Category": "Stats",
+    "FrontTitle": "Accuracy (ACC)",
     "FrontBody": "<p>Accuracy Refers to your Ability to hit an specific target. More Accuracy more Hits, that includes anything you might throw</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -10,17 +11,19 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Stats (Damage)",
+    "Category": "Stats",
+    "FrontTitle": "Damage (DMG)",
     "FrontBody": "<p>Damage Refers to how much hurt you can rain on your enemies, and how far you can hurl that hurt (tossing a grenade).</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Related Checks",
-    "BackBody": "<p><span class=\"tina-text\">MAKE IT RAAAAAAAAIN!<span></p>",
+    "BackBody": "<p><span class=\"tina-text is-size-4\">MAKE IT RAAAAAAAAIN!<span></p>",
     "BackImage": null,
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Stats (Speed)",
+    "Category": "Stats",
+    "FrontTitle": "Speed (SPD)",
     "FrontBody": "<p>Speed represents how far you can move. Important for avoiding hits. By default you can move 3 spaces per turn. Any increase in speed also increase your movements.</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -30,7 +33,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Stats (Mastery)",
+    "Category": "Stats",
+    "FrontTitle": "Mastery (MST)",
     "FrontBody": "<p>Mastery is the focus and proficiency you bring to certain skills.Increasing Mastery allows you to use your Ability Skills multiple times per encounter.</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -40,17 +44,19 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (MOVEMENT)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Movement",
     "FrontBody": "<p>Agility on the battlefield is crucial in combat. You will always get the chance to move during your turn.</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Movement (In Depth)",
-    "BackBody": "<p>Movement is equal to 3 squares + SPD bonus. Moves may be split up with other Actions (ex. a player can move 1 square, Attack an Enemy, and then move additional squares). You can't move through enemy spaces, but if you ask nicely your frinds might just let you.<br>When performing Actions like climb, slide, or jump, that may be extraordinary. a Traverse Check may be necessary to proceed. <br> If you enter a square with Loot Piles, Movement is paused and <span class=\"tina-text\">sweet, sweet loot!</span><p>",
+    "BackBody": "<p>Movement is equal to 3 squares + SPD bonus. Moves may be split up with other Actions (ex. a player can move 1 square, Attack an Enemy, and then move additional squares). You can't move through enemy spaces, but if you ask nicely your frinds might just let you.<br>When performing Actions like climb, slide, or jump, that may be extraordinary. a Traverse Check may be necessary to proceed. <br> If you enter a square with Loot Piles, Movement is paused and <span class=\"tina-text is-size-4\">sweet, sweet loot!</span><p>",
     "BackImage": null,
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (EXTRA MOVEMENT)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Extra Movement",
     "FrontBody": "<p>Feeling like moving a little extra?</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -60,7 +66,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (RANGED ATTACK)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Ranged Attack",
     "FrontBody": "<p>Attacking is how to make things that are alive, less so</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -70,7 +77,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (MELEE ATTACK)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Melee Attack",
     "FrontBody": "<p>For when you want to get in reaaaal close</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -80,8 +88,9 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (EXTRA ATTACK)",
-    "FrontBody": "<p><span class=\"tina-text\">Gonna go blat-blat-blat on the vine-freaks.<br>Rat-tat-tat till their brain leaks.<br>Chill, girl, just droppin' some bars. Go do the thing.<span></p>",
+    "Category": "Combat Actions",
+    "FrontTitle": "Extra Attack",
+    "FrontBody": "<p><span class=\"tina-text is-size-4\">Gonna go blat-blat-blat on the vine-freaks.<br>Rat-tat-tat till their brain leaks.<br>Chill, girl, just droppin' some bars. Go do the thing.<span></p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Extra Attack (In Depth)",
@@ -90,7 +99,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (ACTION SKILL)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Action Skill",
     "FrontBody": "<p>Action Skills are you bread a butter move, your signature combo, a special move unique to your class</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -100,17 +110,19 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (GRENADES)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Grenades",
     "FrontBody": "<p>Fire in the hole!</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Grenades (In Depth)",
-    "BackBody": "<p> At any time during your turn, you can launch a grenade.Grenade Damage is determined by the type of grenade mod you have equipped has. At level one you start with one grenade and when runs out of one type of grenade, the next time you get a grenade, you have the option to keep your current mod or replace it by rolling for a new one.<br><br>Your DMG mods tells you how far can a grenade be thrown and your ACC how good you're at hitting people with it. <p>",
+    "BackBody": "<p> At any time during your turn, you can launch a grenade. Grenade Damage is determined by the type of grenade mod you have equipped has. At level one you start with one grenade and when runs out of one type of grenade, the next time you get a grenade, you have the option to keep your current mod or replace it by rolling for a new one.<br><br>Your DMG mods tells you how far can a grenade be thrown and your ACC how good you're at hitting people with it. <p>",
     "BackImage": null,
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (THROW/HANDS OFF ITEMS)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Throw/Hands Off Items",
     "FrontBody": "<p>For when you wish to Throw or Hand Off an item, whether that's a gun into another Vault Hunter's waiting hands, or a piece of debris into an orc's not-so-waiting mouth hole</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -120,7 +132,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (SWAP GUNS)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Swap Guns",
     "FrontBody": "<p> You'll always needs the right tool for the job. Most of the time that tool is a better gun</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -130,7 +143,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (PERFORM A CHECK)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Performing Checks",
     "FrontBody": "<p>Any check could potentially come up in combat</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -140,8 +154,9 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Actions (RELOAD)",
-    "FrontBody": "<p><span class=\"tina-text\">It got jam, what<span></p>",
+    "Category": "Combat Actions",
+    "FrontTitle": "Reload",
+    "FrontBody": "<p><span class=\"tina-text is-size-4\">It got jam, what<span></p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Throwing or Handing off items (In Depth)",
@@ -150,7 +165,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "Combat Skills (Readying an Action)",
+    "Category": "Combat Actions",
+    "FrontTitle": "Holding an Action",
     "FrontBody": "<p>Your may also Hold Actions instead of taking normal Actions on you turn. When you Hold Actions, you are waiting for something to happen before you Act</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -160,7 +176,8 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "BADASS MOVE",
+    "Category": "Combat Actions",
+    "FrontTitle": "Badass Move",
     "FrontBody": "<p>Outside the realm of your normal Actions, the Badass Move is for all those do-or-die moments during a fight. When you have a brilliant/stupid/courageous/nonsensical idea and desperately want to put it into an action,you'll be using a Badass Move</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
@@ -170,12 +187,47 @@
     "BackImageDescription": null
   },
   {
-    "FrontTitle": "BADASS TOKEN",
+    "Category": "Combat Actions",
+    "FrontTitle": "Badass Tokens",
     "FrontBody": "<p>Badass Tokens can be used in a couple of ways. They can be spent by any player in a party to add +1 to any roll. including non-combat Checks. They can also be spent to do an additional Badass Move in an encounter</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "A badge of you badassity",
     "BackBody": "<p>You get 1 Badass Move per day, but can spend Tokens to do additional Badass Moves. Each extra Badass Move costs 1 additional Token cumulatively. 1 extra move costs 1 Token, the next costs 2 Tokens, then 3 Tokens, etc.<p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "Category": "General Info",
+    "FrontTitle": "Elements",
+    "FrontBody": "<p>When bullets are not enough, add the magic of the Elements.</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Elements in depth",
+    "BackBody": "<p><ul><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Incendiary.png\" alt=\"Incendiary\"/></figure>Incendiary = fire. Incendiary Damage deals double Damage to targets with exposed Flesh. Once Shields or Armor are depleted, all Health Damage is double for Flesh targets.</li><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Corrosive.png\" alt=\"Corrosive\"/></figure>Corrosive: Magical melty stuff that eats through Armor and Metal, dealing double Damage.</li><ul><p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  },
+  {
+    "Category": "General Info",
+    "FrontTitle": "Elements Part 2",
+    "FrontBody": "<p>But wait there's more</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Elements in depth",
+    "BackBody": "<p><ul><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Shock.png\" alt=\"Shock\"/></figure>Shock: Ben Franklin never meant for it to be used as a weapon. Shock Damage deals double Damage to Shields.</li><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Explosive.png\" alt=\"Explosive\"/></figure> Explosive: makes a big BOOM and always includes Splash, which deals additional half Damage to all adjacent squares. Explosive also has a 30% chance to cause Knockback,kicking the target back one square away from the Damage source.</li><ul><p>",
+    "BackImage": null,
+    "BackImageDescription": null
+  }
+  ,
+  {
+    "Category": "General Info",
+    "FrontTitle": "Elements Part 3",
+    "FrontBody": "<p>And it goes on and on and on...</p>",
+    "FrontImage": null,
+    "FrontImageDescription": null,
+    "BackTitle": "Elements in depth",
+    "BackBody": "<p><ul><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Radiation.png\" alt=\"Radiation\"/></figure> Radiation: It penetrates through Shields and deal Damage directly to Health. If a target dies while taking Radiation Damage, they explode and deal 3d6 Splash Radiation Damage.</li><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Cryo.png\" alt=\"Cryo\"/></figure> Cryo=really cold. Targets Hit by Cryo Damage are Slowed, if a target is Hit again with Cryo, they become Frozen.</li><ul><p>",
     "BackImage": null,
     "BackImageDescription": null
   }

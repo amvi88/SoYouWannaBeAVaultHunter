@@ -9,3 +9,7 @@
 .is-strike-through {
         text-decoration: line-through;
 }
+
+.is-image-inline > img {
+        display: inline-block;
+}
