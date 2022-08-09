@@ -50,7 +50,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Movement (In Depth)",
-    "BackBody": "<p>Movement is equal to 3 squares + SPD bonus. Moves may be split up with other Actions (ex. a player can move 1 square, Attack an Enemy, and then move additional squares). You can't move through enemy spaces, but if you ask nicely your frinds might just let you.<br>When performing Actions like climb, slide, or jump, that may be extraordinary. a Traverse Check may be necessary to proceed. <br> If you enter a square with Loot Piles, Movement is paused and <span class=\"tina-text is-size-4\">sweet, sweet loot!</span><p>",
+    "BackBody": "<p>Movement is equal to 3 squares + SPD bonus. Moves may be split up with other Actions (ex. a player can move 1 square, Attack an Enemy, and then move additional squares). You can't move through enemy spaces, but if you ask nicely your frinds might just let you.<br>When performing Actions like climb, slide, or jump, that may be extraordinary. a Traverse Check may be necessary to proceed. If you enter a square with Loot Piles, Movement is paused and  <br><span class=\"tina-text is-size-4\">sweet, sweet loot!</span><p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -160,7 +160,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Reload (In Depth)",
-    "BackBody": "<p>For the most part, you won't need to worry about Reloading. UNLESS you roll a 1 on a Ranged Attack or if you want to spend your Action Reloading to trigger an effect on a Skill or Feat. In either scenario,any Skill or Guild conditions will then go into effect and 1 Mayhem Point is gained. By reloading you forfeit your Attack actions.<p>",
+    "BackBody": "<p>For the most part, you won't need to worry about Reloading. UNLESS you roll a 1 on a Ranged Attack or if you want to spend your Action Reloading to trigger an effect on a Skill or Feat.<br><br>In either scenario,any Skill or Guild conditions will then go into effect and 1 Mayhem Point is gained. By reloading you forfeit your Attack actions.<p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -178,7 +178,7 @@
   {
     "Category": "Combat Actions",
     "FrontTitle": "Badass Move",
-    "FrontBody": "<p>Outside the realm of your normal Actions, the Badass Move is for all those do-or-die moments during a fight. When you have a brilliant/stupid/courageous/nonsensical idea and desperately want to put it into an action,you'll be using a Badass Move</p>",
+    "FrontBody": "<p>Outside the realm of your normal Actions, the Badass Move is for all those do-or-die moments during a fight.<br><br>When you have a brilliant/stupid/courageous/nonsensical idea and desperately want to put it into an action,you'll be using a Badass Move</p>",
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Tell me more",

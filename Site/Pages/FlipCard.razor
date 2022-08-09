@@ -5,7 +5,7 @@
     <div class="flip-wrapper column is-full">
         <input type="checkbox" id="@Id">
         <label class="flip-tile" for="@Id">
-            <div class="flip-tile-front box">
+            <div class="flip-tile-front @GetCssClass box">
                 @if(!string.IsNullOrWhiteSpace(CardEntry?.FrontImage))
                 {
                     <div class="flip-tile-image">
@@ -17,7 +17,7 @@
                 <p class="title">@CardEntry?.FrontTitle</p>
                 @((MarkupString)CardEntry?.FrontBody)
             </div>
-            <div class="flip-tile-back box">
+            <div class="flip-tile-back @GetCssClass box">
                 @if(!string.IsNullOrWhiteSpace(CardEntry?.BackImage))
                 {
                     <div class="flip-tile-image">
@@ -40,4 +40,6 @@
 
     [Parameter]
     public CardEntry? CardEntry{get; set;}
-}
+
+    string @GetCssClass => CardEntry?.Category?.ToLower()?.Replace(" ", "-") ?? null;
+} 

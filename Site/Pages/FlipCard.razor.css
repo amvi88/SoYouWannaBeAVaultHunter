@@ -84,4 +84,24 @@
     max-width: 32px;
     max-height: 32px;
   }
+  :root {
+    --dark-blue-gray: hsla(233, 29%, 54%, 0.4);
+    --purple-mountain-majesty: hsla(283, 30%, 57%, 0.4);
+    --purple-navy: hsla(240, 29%, 41%, 0.4);
+    --dark-purple: hsla(272, 41%, 18%, 0.4);
+    --russian-violet: hsla(247, 43%, 16%, 10.4);
+  }
+
+  .stats{
+    background: var(--dark-blue-gray);
+  }
+
+  .combat-actions {
+    background: var(--purple-mountain-majesty);
+  }
+
+  .general-info {
+    background: var(--purple-navy);
+  }
+  
 
