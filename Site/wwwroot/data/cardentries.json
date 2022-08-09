@@ -127,7 +127,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Throwing or Handing off items (In Depth)",
-    "BackBody": "<p>If the distance of a Throw is within a number of squares equal to or less than your DMG Mod, the Throw always succeeds. For a further Throw, you must pass an Accuracy Roll of 12 or higher by rolling a d20 and adding their ACC Mod or bad things might happen.<br> Handing Off an item is only to an adjacent square.<br>Throws do not generate Mayhem, but Handing Off an item generates 1 Mayhem Point. <p>",
+    "BackBody": "<p>If the distance of a Throw is within a number of squares equal to or less than your DMG Mod, the Throw always succeeds. For a further Throw, you must pass an Accuracy Roll of 12 or higher by rolling a d20 and adding their ACC Mod or bad things might happen.<br><br>Handing Off an item is only to an adjacent square.<br>Throws do not generate Mayhem, but Handing Off an item generates 1 Mayhem Point. <p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -159,7 +159,7 @@
     "FrontBody": "<p><span class=\"tina-text is-size-4\">It got jam, what<span></p>",
     "FrontImage": null,
     "FrontImageDescription": null,
-    "BackTitle": "Throwing or Handing off items (In Depth)",
+    "BackTitle": "Reload (In Depth)",
     "BackBody": "<p>For the most part, you won't need to worry about Reloading. UNLESS you roll a 1 on a Ranged Attack or if you want to spend your Action Reloading to trigger an effect on a Skill or Feat. In either scenario,any Skill or Guild conditions will then go into effect and 1 Mayhem Point is gained. By reloading you forfeit your Attack actions.<p>",
     "BackImage": null,
     "BackImageDescription": null
@@ -182,7 +182,7 @@
     "FrontImage": null,
     "FrontImageDescription": null,
     "BackTitle": "Tell me more",
-    "BackBody": "<p>Begin a Badass Move by describing, in detail, what you want to do on your turn, including all the Actions required to make the Badass Move happen (Movements, Attacks, perform Checks, etc.) Be as descriptive as possible.<br>Feel free to add any catchphrases or one liners. You can either succeed and get Badass Tokens or well ... suffer your failure.<p>",
+    "BackBody": "<p>Begin a Badass Move by describing, in detail, what you want to do on your turn, including all the Actions required to make the Badass Move happen (Movements, Attacks, perform Checks, etc.) Be as descriptive as possible.<br><br>Feel free to add any catchphrases or one liners. You can either succeed and get Badass Tokens or well ... suffer your failure.<p>",
     "BackImage": null,
     "BackImageDescription": null
   },
@@ -218,8 +218,7 @@
     "BackBody": "<p><ul><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Shock.png\" alt=\"Shock\"/></figure>Shock: Ben Franklin never meant for it to be used as a weapon. Shock Damage deals double Damage to Shields.</li><li><figure class=\"image is-image-inline  is-32x32\"><img class=\"element-small\" src=\"images/elements/Explosive.png\" alt=\"Explosive\"/></figure> Explosive: makes a big BOOM and always includes Splash, which deals additional half Damage to all adjacent squares. Explosive also has a 30% chance to cause Knockback,kicking the target back one square away from the Damage source.</li><ul><p>",
     "BackImage": null,
     "BackImageDescription": null
-  }
-  ,
+  },
   {
     "Category": "General Info",
     "FrontTitle": "Elements Part 3",

@@ -34,13 +34,13 @@
     transition: all 0.4s ease-in-out;
     background-repeat: no-repeat;
     background-position: top 10px right 10px;
-    min-height: 400px;
+    min-height: 420px;
   }
 
   @media (max-width: 600px) {
     flip-wrapper .flip-tile .flip-tile-front,
     .flip-wrapper .flip-tile .flip-tile-back {
-      min-height: 400px;
+      min-height: 420px;
     }
   }
 
